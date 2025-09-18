@@ -14,6 +14,7 @@
 ### Kết quả tokenizer trên các câu mẫu
 
 **SimpleTokenizer:**
+<pre>
 Input: Hello, world! This is a test.
 Tokens: ['hello', ',', 'world', '!', 'this', 'is', 'a', 'test', '.']
 
@@ -32,6 +33,7 @@ Tokens: ['nlp', 'is', 'fascinating', '.', '.', '.', 'isn', "'", 't', 'it', '?']
 
 Input: Let's see how it handles 123 numbers and punctuation!
 Tokens: ['let', "'", 's', 'see', 'how', 'it', 'handles', '123', 'numbers', 'and', 'punctuation', '!']
+<\pre>
 
 ### Kết quả tokenizer trên bộ dữ liệu UD_English-EWT
 Original Sample: Al-Zaman : American forces killed Shaikh Abdullah al-Ani, the preacher at the mosque in the town of ...
