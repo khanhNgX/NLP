@@ -33,15 +33,17 @@ Tokens: ['nlp', 'is', 'fascinating', '.', '.', '.', 'isn', "'", 't', 'it', '?']
 
 Input: Let's see how it handles 123 numbers and punctuation!
 Tokens: ['let', "'", 's', 'see', 'how', 'it', 'handles', '123', 'numbers', 'and', 'punctuation', '!']
-<\pre>
+</pre>
 
 ### Kết quả tokenizer trên bộ dữ liệu UD_English-EWT
+<pre>
 Original Sample: Al-Zaman : American forces killed Shaikh Abdullah al-Ani, the preacher at the mosque in the town of ...
 SimpleTokenizer Output (first 20 tokens): ['al', '-', 'zaman', ':', 'american', 'forces', 'killed', 'shaikh', 'abdullah', 'al', '-', 'ani', ',', 'the', 'preacher', 'at', 'the', 'mosque', 'in', 'the']
 RegexTokenizer Output (first 20 tokens): ['al', '-', 'zaman', ':', 'american', 'forces', 'killed', 'shaikh', 'abdullah', 'al', '-', 'ani', ',', 'the', 'preacher', 'at', 'the', 'mosque', 'in', 'the']
+</pre>
 
 ### Kết quả CountVectorizer trên corpus mẫu
-
+<pre>
 Vocabulary: {'.': 0, 'a': 1, 'ai': 2, 'i': 3, 'is': 4, 'love': 5, 'nlp': 6, 'of': 7, 'programming': 8, 'subfield': 9}
 
 Tokenized Corpus:
@@ -53,7 +55,7 @@ Document-Term Matrix:
 [1, 0, 0, 1, 0, 1, 1, 0, 0, 0]
 [1, 0, 0, 1, 0, 1, 0, 0, 1, 0]
 [1, 1, 1, 0, 1, 0, 1, 1, 0, 1]
-
+</pre>
 ## Giải thích kết quả
 - `SimpleTokenizer` chỉ tách từ dựa trên khoảng trắng và dấu câu cơ bản, có thể bỏ sót các trường hợp đặc biệt.
 - `RegexTokenizer` sử dụng regex nên tách từ và dấu câu chính xác hơn, đặc biệt với các ký tự đặc biệt hoặc số.
