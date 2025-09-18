@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from representations.count_vectorizer import CountVectorizer
 from preprocessing.regex_tokenizer import RegexTokenizer
 from core.dataset_loaders import load_raw_text_data
@@ -17,8 +21,11 @@ if __name__ == "__main__":
     for sentence in corpus:
         tokens = regex_tokenizer.tokenize(sentence)
         tokenized_corpus.append(" ".join(tokens))
+    print("Tokenized Corpus:")
+    for text in tokenized_corpus:    
+        print(f"{text}")
 
     result_corpus = vectorizer_corpus.fit_transform(tokenized_corpus)
-    print("Document-Term Matrix:")
+    print("\nDocument-Term Matrix:")
     for doc_vector in result_corpus:
         print(doc_vector)

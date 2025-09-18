@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from preprocessing.simple_tokenizer import SimpleTokenizer
 from preprocessing.regex_tokenizer import RegexTokenizer
 from core.dataset_loaders import load_raw_text_data
