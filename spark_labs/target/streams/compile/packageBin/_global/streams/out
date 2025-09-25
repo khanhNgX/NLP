@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging D:\VSCode\NLP\spark_labs\target\scala-2.12\spark-nlp-labs_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\VSCode\NLP\spark_labs\target\scala-2.12\classes\com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\harito[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\VSCode\NLP\spark_labs\target\scala-2.12\classes\com\harito[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\harito\spark[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\VSCode\NLP\spark_labs\target\scala-2.12\classes\com\harito\spark[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\harito\spark\Lab17_NLPPipeline$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\VSCode\NLP\spark_labs\target\scala-2.12\classes\com\harito\spark\Lab17_NLPPipeline$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\harito\spark\Lab17_NLPPipeline.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\VSCode\NLP\spark_labs\target\scala-2.12\classes\com\harito\spark\Lab17_NLPPipeline.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	log4j2.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\VSCode\NLP\spark_labs\target\scala-2.12\classes\log4j2.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

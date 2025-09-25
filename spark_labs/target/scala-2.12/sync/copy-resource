@@ -1,0 +1,1 @@
+[[{"${BASE}/src/main/resources/log4j2.properties":["${BASE}/target/scala-2.12/classes/log4j2.properties"]},{"${BASE}/target/scala-2.12/classes/log4j2.properties":["${BASE}/src/main/resources/log4j2.properties"]}],{"${BASE}/src/main/resources/log4j2.properties":{"file":"file:///D:/VSCode/NLP/spark_labs/src/main/resources/log4j2.properties","lastModified":1758802282195}}]
