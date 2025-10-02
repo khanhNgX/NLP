@@ -1,9 +1,22 @@
---- Performance Metrics ---
-Pipeline fitting duration: 1,88 seconds
-Data transformation duration: 0,73 seconds
-Actual vocabulary size (after preprocessing): 31355 unique terms
-HashingTF numFeatures set to: 20000
-Note: numFeatures (20000) is smaller than actual vocabulary size (31355). Hash collisions are expected.
-Metrics file generated at: D:\VSCode\NLP\spark_labs\log\lab17_metrics.log
+--- Metrics Hieu suat Nang cao ---
+Gioi han tai lieu: 1000
+Kich thuoc tu vung thuc te (sau tien xu ly): 31355 tu duy nhat
+HashingTF numFeatures dat thanh: 20000
+Chuan hoa: Da ap dung chuan hoa L2
+Luu y: numFeatures (20000) nho hon kich thuoc tu vung thuc te (31355). Hash collisions du kien se xay ra.
 
-For detailed stage-level metrics, view the Spark UI at http://localhost:4040 during execution.
+--- Phan tich Thoi gian ---
+Xem console output de biet thoi gian chi tiet cua tung thao tac
+File metrics duoc tao tai: D:\VSCode\NLP\spark_labs\log\lab17_metrics.log
+
+--- Phan tich Do tuong dong Tai lieu ---
+Tai lieu tham chieu: Beginners BBQ Class Taking Place in Missoula!
+Do you want to get better at making delicious BBQ? You...
+Top 5 tai lieu tuong dong:
+  1. Tai lieu 440 (Do tuong dong: 0,0858) - Check out the Italian Pasta Salad calories and how many carbs in Italian Pasta S...
+  2. Tai lieu 984 (Do tuong dong: 0,0789) - Enjoy our variety of meat cuts prepared with authentic Southern Brazilian Style ...
+  3. Tai lieu 54 (Do tuong dong: 0,0784) - Know Buckeye Trail Class of 2001 graduates that are NOT on this List? Help us Up...
+  4. Tai lieu 278 (Do tuong dong: 0,0739) - Class A Burn Prop - Stove Simulator With Overhead Burn Hood - Fire Facilities, I...
+  5. Tai lieu 684 (Do tuong dong: 0,0722) - Many students have never been to a museum before. While we want children to resp...
+
+De xem metrics chi tiet theo stage, truy cap Spark UI tai http://localhost:4040 trong qua trinh thuc thi.
