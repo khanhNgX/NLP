@@ -1,5 +1,5 @@
 
-# Lab5 — Báo cáo và Phân 
+# Lab5 — Báo cáo và Phân tích
 
 ## 1. Tóm tắt các bước triển khai
 
