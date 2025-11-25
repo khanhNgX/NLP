@@ -1,4 +1,4 @@
-# Lab6 — PyTorch basics
+# Lab5 — PyTorch basics
 
 ## Nội dung đã thực hiện
 - Phần 1 — Khám phá Tensor
@@ -52,3 +52,4 @@ Nguyên nhân và cách xử lý:
 - Thử tính đạo hàm bậc hai / higher-order và minh hoạ với ví dụ `create_graph=True`.
 
 ---
+
