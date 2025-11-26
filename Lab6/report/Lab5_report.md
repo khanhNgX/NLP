@@ -112,8 +112,21 @@ Bài toán nhận diện thực thể (Person, Organization, Location...) trên 
     * Sử dụng `IGNORE_INDEX = -1` cho phần padding của nhãn.
 
 ### 2. Phân tích kết quả
-* **Độ chính xác (Validation Accuracy):** Đạt **94.07%** sau 5 epochs.
-* Đây là một kết quả rất cao, cho thấy LSTM học rất tốt các quy luật chuỗi của bài toán NER (ví dụ: sau B-PER thường là I-PER).
+**Độ chính xác (Validation Accuracy):** Đạt **94.07%** sau 5 epochs.
+  
+**Ví dụ thực tế:**
+
+* **Câu đầu vào:** `"VNU University is located in Hanoi"`
+* **Kết quả dự đoán từ mô hình:**
+
+| Từ (Token) | Nhãn dự đoán | Giải thích |
+| :--- | :--- | :--- |
+| **VNU** | `B-ORG` | Bắt đầu một Tổ chức (Organization) - **Chính xác** |
+| **University** | `I-ORG` | Bên trong tên Tổ chức - **Chính xác** |
+| **is** | `O` | Không phải thực thể |
+| **located** | `O` | Không phải thực thể |
+| **in** | `O` | Không phải thực thể |
+| **Hanoi** | `O` | *Dự đoán sai (Lẽ ra là B-LOC)* |
 
 ### 3. Khó khăn và Giải pháp (Quan trọng)
 * **Thách thức:** Khi sử dụng thư viện `datasets` phiên bản mới nhất để tải CoNLL-2003, gặp lỗi `RuntimeError: Dataset scripts are no longer supported`.
