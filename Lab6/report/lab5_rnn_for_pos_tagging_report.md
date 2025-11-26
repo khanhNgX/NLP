@@ -1,10 +1,5 @@
 # BÁO CÁO LAB 5: XÂY DỰNG MÔ HÌNH RNN CHO BÀI TOÁN GÁN NHÃN TỪ LOẠI (POS TAGGING)
 
-**Họ và tên:** [Điền tên của bạn vào đây]
-**MSSV:** [Điền MSSV của bạn vào đây]
-
----
-
 ## 1. THỐNG KÊ DỮ LIỆU VÀ MÔ HÌNH
 
 ### Thông tin dữ liệu
